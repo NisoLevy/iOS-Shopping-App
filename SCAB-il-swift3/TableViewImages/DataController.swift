@@ -22,7 +22,7 @@ class DataController: NSObject {
         let psc = NSPersistentStoreCoordinator(managedObjectModel: mom)
         managedObjectContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
         managedObjectContext.persistentStoreCoordinator = psc
-        DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.background).async {
+        DispatchQueue.global(qos: .background).async {
             let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
             let docURL = urls[urls.endIndex-1]
             /* The directory the application uses to store the Core Data store file.
