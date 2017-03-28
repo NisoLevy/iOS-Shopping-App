@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0338D9341C77918600CA6662 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0338D9331C77918600CA6662 /* Data.swift */; };
+		0341300D1C85AB9D009F8579 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341300C1C85AB9D009F8579 /* WelcomViewController.swift */; };
+		0345959D1C763A97000703EC /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345959C1C763A97000703EC /* ProductsViewController.swift */; };
+		03547CD91C7333080075B825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03547CD81C7333080075B825 /* AppDelegate.swift */; };
+		03547CDB1C7333080075B825 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03547CDA1C7333080075B825 /* CategoriesViewController.swift */; };
+		03547CDE1C7333080075B825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03547CDC1C7333080075B825 /* Main.storyboard */; };
+		03547CE01C7333080075B825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03547CDF1C7333080075B825 /* Assets.xcassets */; };
+		03547CE31C7333080075B825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03547CE11C7333080075B825 /* LaunchScreen.storyboard */; };
+		03547CEE1C7333080075B825 /* TableViewImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03547CED1C7333080075B825 /* TableViewImagesTests.swift */; };
+		03547CF91C7333080075B825 /* TableViewImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03547CF81C7333080075B825 /* TableViewImagesUITests.swift */; };
+		036314A91CCD379C002B219A /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036314A81CCD379C002B219A /* CheckoutViewController.swift */; };
+		03693D1F1D40DF1D00980A83 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03693D1E1D40DF1D00980A83 /* Product.swift */; };
+		03693D211D40E19500980A83 /* ProductsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03693D201D40E19500980A83 /* ProductsViewCell.swift */; };
+		0370CF3B1D15B499003E6BC2 /* CheckoutViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370CF3A1D15B499003E6BC2 /* CheckoutViewCell.swift */; };
+		0370CF3D1D1AAD52003E6BC2 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370CF3C1D1AAD52003E6BC2 /* AddressViewController.swift */; };
+		03882DFD1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03882DFB1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodeld */; };
+		03882E001C980F7B008D076A /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03882DFE1C980F7B008D076A /* Item+CoreDataProperties.swift */; };
+		03882E011C980F7B008D076A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03882DFF1C980F7B008D076A /* Item.swift */; };
+		039902C51D046B01002025ED /* ShoppingCartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039902C41D046B01002025ED /* ShoppingCartViewCell.swift */; };
+		03997C151C94CD9F00E995E4 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03997C141C94CD9F00E995E4 /* ShoppingCartViewController.swift */; };
+		03BA7BDB1D256EE200D74B3D /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7BDA1D256EE200D74B3D /* PaymentViewController.swift */; };
+		03D9DE8D1CA4766C0027919D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9DE8C1CA4766C0027919D /* DataController.swift */; };
+		03F20D721C88A7D400D3C442 /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F20D711C88A7D400D3C442 /* ProductInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03547CEA1C7333080075B825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03547CCD1C7333080075B825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03547CD41C7333080075B825;
+			remoteInfo = TableViewImages;
+		};
+		03547CF51C7333080075B825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03547CCD1C7333080075B825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03547CD41C7333080075B825;
+			remoteInfo = TableViewImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03027EA31D0DBD60008C67EE /* ShoppingCartCoreData 2v_V3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ShoppingCartCoreData 2v_V3.xcdatamodel"; sourceTree = "<group>"; };
+		0338D9331C77918600CA6662 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = TableViewImages/Data.swift; sourceTree = "<group>"; };
+		0341300C1C85AB9D009F8579 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		0345959C1C763A97000703EC /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		03547CD51C7333080075B825 /* SCAB Israel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SCAB Israel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03547CD81C7333080075B825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03547CDA1C7333080075B825 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		03547CDD1C7333080075B825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03547CDF1C7333080075B825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03547CE21C7333080075B825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03547CE41C7333080075B825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03547CE91C7333080075B825 /* SCAB Israel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SCAB Israel.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03547CED1C7333080075B825 /* TableViewImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewImagesTests.swift; sourceTree = "<group>"; };
+		03547CEF1C7333080075B825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03547CF41C7333080075B825 /* SCAB Israel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SCAB Israel.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03547CF81C7333080075B825 /* TableViewImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewImagesUITests.swift; sourceTree = "<group>"; };
+		03547CFA1C7333080075B825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03627B721CBABC0600B26668 /* ShoppingCartCoreData 2v_V2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ShoppingCartCoreData 2v_V2.xcdatamodel"; sourceTree = "<group>"; };
+		036314A81CCD379C002B219A /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		03693D1E1D40DF1D00980A83 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		03693D201D40E19500980A83 /* ProductsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewCell.swift; sourceTree = "<group>"; };
+		0370CF3A1D15B499003E6BC2 /* CheckoutViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewCell.swift; sourceTree = "<group>"; };
+		0370CF3C1D1AAD52003E6BC2 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		03882DFC1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingCartCoreData.xcdatamodel; sourceTree = "<group>"; };
+		03882DFE1C980F7B008D076A /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03882DFF1C980F7B008D076A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		039902C41D046B01002025ED /* ShoppingCartViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewCell.swift; sourceTree = "<group>"; };
+		03997C141C94CD9F00E995E4 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		03BA7BDA1D256EE200D74B3D /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		03D9DE8C1CA4766C0027919D /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		03F20D711C88A7D400D3C442 /* ProductInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03547CD21C7333080075B825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03547CE61C7333080075B825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03547CF11C7333080075B825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03547CCC1C7333080075B825 = {
+			isa = PBXGroup;
+			children = (
+				03882DFE1C980F7B008D076A /* Item+CoreDataProperties.swift */,
+				03882DFF1C980F7B008D076A /* Item.swift */,
+				03693D231D411E1400980A83 /* Model */,
+				039902C31D0469B0002025ED /* View */,
+				03547CD71C7333080075B825 /* Controller */,
+				03547CEC1C7333080075B825 /* TableViewImagesTests */,
+				03547CF71C7333080075B825 /* TableViewImagesUITests */,
+				03547CD61C7333080075B825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03547CD61C7333080075B825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03547CD51C7333080075B825 /* SCAB Israel.app */,
+				03547CE91C7333080075B825 /* SCAB Israel.xctest */,
+				03547CF41C7333080075B825 /* SCAB Israel.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03547CD71C7333080075B825 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03547CD81C7333080075B825 /* AppDelegate.swift */,
+				03D9DE8C1CA4766C0027919D /* DataController.swift */,
+				0341300C1C85AB9D009F8579 /* WelcomViewController.swift */,
+				03547CDA1C7333080075B825 /* CategoriesViewController.swift */,
+				0345959C1C763A97000703EC /* ProductsViewController.swift */,
+				03F20D711C88A7D400D3C442 /* ProductInfoViewController.swift */,
+				03997C141C94CD9F00E995E4 /* ShoppingCartViewController.swift */,
+				036314A81CCD379C002B219A /* CheckoutViewController.swift */,
+				0370CF3C1D1AAD52003E6BC2 /* AddressViewController.swift */,
+				03BA7BDA1D256EE200D74B3D /* PaymentViewController.swift */,
+				03547CDF1C7333080075B825 /* Assets.xcassets */,
+				03547CE11C7333080075B825 /* LaunchScreen.storyboard */,
+				03547CE41C7333080075B825 /* Info.plist */,
+				03882DFB1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodeld */,
+			);
+			name = Controller;
+			path = TableViewImages;
+			sourceTree = "<group>";
+		};
+		03547CEC1C7333080075B825 /* TableViewImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				03547CED1C7333080075B825 /* TableViewImagesTests.swift */,
+				03547CEF1C7333080075B825 /* Info.plist */,
+			);
+			path = TableViewImagesTests;
+			sourceTree = "<group>";
+		};
+		03547CF71C7333080075B825 /* TableViewImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03547CF81C7333080075B825 /* TableViewImagesUITests.swift */,
+				03547CFA1C7333080075B825 /* Info.plist */,
+			);
+			path = TableViewImagesUITests;
+			sourceTree = "<group>";
+		};
+		03693D231D411E1400980A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0338D9331C77918600CA6662 /* Data.swift */,
+				03693D1E1D40DF1D00980A83 /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		039902C31D0469B0002025ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03693D201D40E19500980A83 /* ProductsViewCell.swift */,
+				039902C41D046B01002025ED /* ShoppingCartViewCell.swift */,
+				0370CF3A1D15B499003E6BC2 /* CheckoutViewCell.swift */,
+				03547CDC1C7333080075B825 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03547CD41C7333080075B825 /* SCAB Israel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03547CFD1C7333080075B825 /* Build configuration list for PBXNativeTarget "SCAB Israel" */;
+			buildPhases = (
+				03547CD11C7333080075B825 /* Sources */,
+				03547CD21C7333080075B825 /* Frameworks */,
+				03547CD31C7333080075B825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCAB Israel";
+			productName = TableViewImages;
+			productReference = 03547CD51C7333080075B825 /* SCAB Israel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03547CE81C7333080075B825 /* SCAB IsraelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03547D001C7333080075B825 /* Build configuration list for PBXNativeTarget "SCAB IsraelTests" */;
+			buildPhases = (
+				03547CE51C7333080075B825 /* Sources */,
+				03547CE61C7333080075B825 /* Frameworks */,
+				03547CE71C7333080075B825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03547CEB1C7333080075B825 /* PBXTargetDependency */,
+			);
+			name = "SCAB IsraelTests";
+			productName = TableViewImagesTests;
+			productReference = 03547CE91C7333080075B825 /* SCAB Israel.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03547CF31C7333080075B825 /* SCAB IsraelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03547D031C7333080075B825 /* Build configuration list for PBXNativeTarget "SCAB IsraelUITests" */;
+			buildPhases = (
+				03547CF01C7333080075B825 /* Sources */,
+				03547CF11C7333080075B825 /* Frameworks */,
+				03547CF21C7333080075B825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03547CF61C7333080075B825 /* PBXTargetDependency */,
+			);
+			name = "SCAB IsraelUITests";
+			productName = TableViewImagesUITests;
+			productReference = 03547CF41C7333080075B825 /* SCAB Israel.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03547CCD1C7333080075B825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NisoLevy;
+				TargetAttributes = {
+					03547CD41C7333080075B825 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0820;
+					};
+					03547CE81C7333080075B825 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 798R9X9K2U;
+						LastSwiftMigration = 0820;
+						TestTargetID = 03547CD41C7333080075B825;
+					};
+					03547CF31C7333080075B825 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 798R9X9K2U;
+						LastSwiftMigration = 0820;
+						TestTargetID = 03547CD41C7333080075B825;
+					};
+				};
+			};
+			buildConfigurationList = 03547CD01C7333080075B825 /* Build configuration list for PBXProject "SCAB Israel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03547CCC1C7333080075B825;
+			productRefGroup = 03547CD61C7333080075B825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03547CD41C7333080075B825 /* SCAB Israel */,
+				03547CE81C7333080075B825 /* SCAB IsraelTests */,
+				03547CF31C7333080075B825 /* SCAB IsraelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03547CD31C7333080075B825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03547CE31C7333080075B825 /* LaunchScreen.storyboard in Resources */,
+				03547CE01C7333080075B825 /* Assets.xcassets in Resources */,
+				03547CDE1C7333080075B825 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03547CE71C7333080075B825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03547CF21C7333080075B825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03547CD11C7333080075B825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039902C51D046B01002025ED /* ShoppingCartViewCell.swift in Sources */,
+				03882E011C980F7B008D076A /* Item.swift in Sources */,
+				03F20D721C88A7D400D3C442 /* ProductInfoViewController.swift in Sources */,
+				03BA7BDB1D256EE200D74B3D /* PaymentViewController.swift in Sources */,
+				0370CF3D1D1AAD52003E6BC2 /* AddressViewController.swift in Sources */,
+				03693D1F1D40DF1D00980A83 /* Product.swift in Sources */,
+				03693D211D40E19500980A83 /* ProductsViewCell.swift in Sources */,
+				03997C151C94CD9F00E995E4 /* ShoppingCartViewController.swift in Sources */,
+				03882DFD1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodeld in Sources */,
+				036314A91CCD379C002B219A /* CheckoutViewController.swift in Sources */,
+				0345959D1C763A97000703EC /* ProductsViewController.swift in Sources */,
+				03D9DE8D1CA4766C0027919D /* DataController.swift in Sources */,
+				0338D9341C77918600CA6662 /* Data.swift in Sources */,
+				03547CDB1C7333080075B825 /* CategoriesViewController.swift in Sources */,
+				03882E001C980F7B008D076A /* Item+CoreDataProperties.swift in Sources */,
+				03547CD91C7333080075B825 /* AppDelegate.swift in Sources */,
+				0370CF3B1D15B499003E6BC2 /* CheckoutViewCell.swift in Sources */,
+				0341300D1C85AB9D009F8579 /* WelcomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03547CE51C7333080075B825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03547CEE1C7333080075B825 /* TableViewImagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03547CF01C7333080075B825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03547CF91C7333080075B825 /* TableViewImagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03547CEB1C7333080075B825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03547CD41C7333080075B825 /* SCAB Israel */;
+			targetProxy = 03547CEA1C7333080075B825 /* PBXContainerItemProxy */;
+		};
+		03547CF61C7333080075B825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03547CD41C7333080075B825 /* SCAB Israel */;
+			targetProxy = 03547CF51C7333080075B825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03547CDC1C7333080075B825 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03547CDD1C7333080075B825 /* Base */,
+			);
+			name = Main.storyboard;
+			path = TableViewImages;
+			sourceTree = "<group>";
+		};
+		03547CE11C7333080075B825 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03547CE21C7333080075B825 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03547CFB1C7333080075B825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03547CFC1C7333080075B825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03547CFE1C7333080075B825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TableViewImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TableViewImages";
+				PRODUCT_NAME = "SCAB Israel";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03547CFF1C7333080075B825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TableViewImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TableViewImages";
+				PRODUCT_NAME = "SCAB Israel";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03547D011C7333080075B825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TableViewImagesTests";
+				PRODUCT_NAME = "SCAB Israel";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCAB Israel.app/SCAB Israel";
+			};
+			name = Debug;
+		};
+		03547D021C7333080075B825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TableViewImagesTests";
+				PRODUCT_NAME = "SCAB Israel";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCAB Israel.app/SCAB Israel";
+			};
+			name = Release;
+		};
+		03547D041C7333080075B825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TableViewImagesUITests";
+				PRODUCT_NAME = "SCAB Israel";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableViewImages;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03547D051C7333080075B825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TableViewImagesUITests";
+				PRODUCT_NAME = "SCAB Israel";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableViewImages;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03547CD01C7333080075B825 /* Build configuration list for PBXProject "SCAB Israel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03547CFB1C7333080075B825 /* Debug */,
+				03547CFC1C7333080075B825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03547CFD1C7333080075B825 /* Build configuration list for PBXNativeTarget "SCAB Israel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03547CFE1C7333080075B825 /* Debug */,
+				03547CFF1C7333080075B825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03547D001C7333080075B825 /* Build configuration list for PBXNativeTarget "SCAB IsraelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03547D011C7333080075B825 /* Debug */,
+				03547D021C7333080075B825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03547D031C7333080075B825 /* Build configuration list for PBXNativeTarget "SCAB IsraelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03547D041C7333080075B825 /* Debug */,
+				03547D051C7333080075B825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03882DFB1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03027EA31D0DBD60008C67EE /* ShoppingCartCoreData 2v_V3.xcdatamodel */,
+				03627B721CBABC0600B26668 /* ShoppingCartCoreData 2v_V2.xcdatamodel */,
+				03882DFC1C980EEA008D076A /* ShoppingCartCoreData.xcdatamodel */,
+			);
+			currentVersion = 03027EA31D0DBD60008C67EE /* ShoppingCartCoreData 2v_V3.xcdatamodel */;
+			path = ShoppingCartCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03547CCD1C7333080075B825 /* Project object */;
+}
